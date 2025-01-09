@@ -1,0 +1,13 @@
+prefix=D:/EricOommenMathew/S6/NLP/Project/venv/Library
+exec_prefix=D:/EricOommenMathew/S6/NLP/Project/venv/Library
+libdir=D:/EricOommenMathew/S6/NLP/Project/venv/Library/lib
+sharedlibdir=D:/EricOommenMathew/S6/NLP/Project/venv/Library/lib
+includedir=D:/EricOommenMathew/S6/NLP/Project/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
